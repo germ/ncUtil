@@ -1,0 +1,17 @@
+ncUtil: A CLI wrapper for notCrypto
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Having a bunch of functions in a library is great but you need
+to use them somehow. And with that I give you ncUtil.
+
+Download and compile the tool with get.
+
+Usage:
+	./ncUtil -[ed] [-f file] [-k "key"]
+
+Usage of ./ncUtil:
+  -d=false: Pass for decoding
+  -e=false: Pass for encoding
+  -f="": Location of file to operate on
+  -k="": Key to be used for operation
+  -m="": Message to be used
